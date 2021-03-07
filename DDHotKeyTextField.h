@@ -11,6 +11,8 @@
 #import <Foundation/Foundation.h>
 #import "DDHotKeyCenter.h"
 
+#import "Compatibility.h"
+
 @interface DDHotKeyTextField : NSTextField
 
 @property (nonatomic, strong) DDHotKey *hotKey;

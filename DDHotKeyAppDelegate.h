@@ -10,6 +10,8 @@
 
 #import <Cocoa/Cocoa.h>
 
+#import "Compatibility.h"
+
 @interface DDHotKeyAppDelegate : NSObject /*<NSApplicationDelegate>*/
 
 @property (assign) IBOutlet NSWindow *window;

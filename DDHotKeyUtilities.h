@@ -10,5 +10,7 @@
 
 #import <Cocoa/Cocoa.h>
 
+#import "Compatibility.h"
+
 extern NSString *DDStringFromKeyCode(unsigned short keyCode, NSUInteger modifiers);
 extern UInt32 DDCarbonModifierFlagsFromCocoaModifiers(NSUInteger flags);

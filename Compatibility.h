@@ -1,0 +1,22 @@
+#import <AppKit/AppKit.h>
+
+#if __MAC_OS_X_VERSION_MIN_REQUIRED >= 101300
+
+#define NSAlphaShiftKeyMask NSEventModifierFlagCapsLock
+#define NSShiftKeyMask NSEventModifierFlagShift
+#define NSControlKeyMask NSEventModifierFlagControl
+#define NSAlternateKeyMask NSEventModifierFlagOption
+#define NSCommandKeyMask NSEventModifierFlagCommand
+#define NSNumericPadKeyMask NSEventModifierFlagNumericPad
+#define NSHelpKeyMask NSEventModifierFlagHelp
+#define NSFunctionKeyMask NSEventModifierFlagFunction
+#define NSDeviceIndependentModifierFlagsMask NSEventModifierFlagDeviceIndependentFlagsMask
+
+#define NSFlagsChanged NSEventTypeFlagsChanged
+#define NSFlagsChangedMask NSEventMaskFlagsChanged
+
+#define NSKeyUp NSEventTypeKeyUp
+#define NSKeyDown NSEventTypeKeyDown
+#define NSKeyDownMask NSEventMaskKeyDown
+
+#endif
